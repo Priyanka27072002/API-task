@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+section{
+    padding-top: 3%;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width:33.3%;
+    padding: 20px;
+}
+.card{
+    box-shadow: 0 0 10px gray;
+    padding: 10px;
+}
+.list{
+    list-style-type: none;
+    padding:2% 0;
+}
+.list li{
+    padding: 2% 0;
+}
+img{
+    width:100%;
+    
+}
+.info{
+    padding: 10px;
+}
+.btn{
+    text-align: center;
+    padding: 10px;
+}
+.btn a{
+    text-decoration: none;
+    background-color: blue;
+    padding: 2% 5%;
+    color: #ffff;
+    border-radius: 5px;
+}
